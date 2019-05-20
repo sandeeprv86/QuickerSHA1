@@ -6,7 +6,7 @@ This project implements the Secure Hashing Algorithm 1 as defined in FIPS PUB 18
 The reference code from the Internet society is optimized for performance. Below is link for reference code -
 https://tools.ietf.org/html/rfc3174
 
-Speed optimization techhnique used and gain achieved is listed below (measured on Intel i5-8250 without any power/performance tweeks) -
+Speed optimization techhnique used and gain achieved is listed below (measured on Intel i5-8250 without any power/performance tweeks) -   
 1) Optimizing of input data parsing and packetizing logic (10% performance gain)    
 2) SHA1 core algorithm loop unrolling by factor of 2 (25% performance gain)   
 
