@@ -1,5 +1,5 @@
-# SHA1_Optimization
-Performance optimization of SHA1 reference code by Sandeep Raju
+# QuickerSHA1
+Performance optimization of SHA1 'C' reference code by Sandeep Raju
 
 # Project Description
 This project implements the Secure Hashing Algorithm 1 as defined in FIPS PUB 180-1 published April 17, 1995.
@@ -8,11 +8,11 @@ https://tools.ietf.org/html/rfc3174
 
 Speed optimization techhnique used and gain achieved is listed below (measured on Intel i5-8250 without any power/performance tweeks) -   
 1) Optimizing of input data parsing and packetizing logic (10% performance gain)    
-2) SHA1 core algorithm loop unrolling by factor of 2 (25% performance gain)   
-
+2) SHA1 core algorithm iterations reduced to 40 (25% performance gain)    
 
 Refer to below author's guide for unrolling algorithm details -
-https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4760668
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4760668    
+   
 
 # Usage of code
 The project has 3 files and brief explanation is as follows -   
@@ -27,7 +27,8 @@ Please let me know if i have left out any corner-cases.
 
 
 # Contact details
-Please feel free to mail me at sandeep.rv@gmail.com for any bugs / suggestions / copyright related queries   
+Please feel free to mail me at sandeep.rv@gmail.com for any bugs / suggestions / copyright related queries.
+Also initiate pull requests for optimizing code further.
 
 
 # Copyright
