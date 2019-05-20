@@ -1,5 +1,5 @@
 # SHA1_Optimization
-Performance optimization of SHA1 code
+Performance optimization of SHA1 reference code by Sandeep Raju
 
 # Project Description
 This project implements the Secure Hashing Algorithm 1 as defined in FIPS PUB 180-1 published April 17, 1995.
