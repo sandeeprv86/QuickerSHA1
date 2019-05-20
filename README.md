@@ -18,7 +18,7 @@ https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4760668
 The project has 3 files and brief explanation is as follows -   
 a) main.c : Small test-code which supplies input message in form of hardcoded string    
 b) sha1.h : SHA1 algorithm header file   
-c) sha1.c : SHA1 algorithm including input message reading, padding and 80 rounds of processing  
+c) sha1.c : SHA1 algorithm including input message reading, padding and 40 rounds of processing  
 
 
 # Testing done
