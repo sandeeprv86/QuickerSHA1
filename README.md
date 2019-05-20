@@ -1,18 +1,35 @@
 # SHA1_Optimization
 Performance optimization of SHA1 code
 
+# Project Description
 This project implements the Secure Hashing Algorithm 1 as defined in FIPS PUB 180-1 published April 17, 1995.
 The reference code from the Internet society is optimized for performance. Below is link for reference code -
 https://tools.ietf.org/html/rfc3174
 
 Speed optimization is performed through -
-1) Optimizing of input data parsing and packetizing logic
-2) SHA1 core algorithm loop unrolling
+1) Optimizing of input data parsing and packetizing logic       
+2) SHA1 core algorithm loop unrolling    
 
 Refer to below author's guide for unrolling algorithm details -
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4760668
 
-Copyright:
+# Usage of code
+The project has 3 files and brief explanation is as follows -   
+a) main.c : Small test-code which supplies input message in form of hardcoded string    
+b) sha1.h : SHA1 algorithm header file   
+c) sha1.c : SHA1 algorithm including input message reading, padding and 80 rounds of processing  
+
+
+# Testing done
+This code has been tested by providing various inputs with code-blocks IDE.
+Please let me know if i have left out any corner-cases.   
+
+
+# Contact details
+Please feel free to mail me at sandeep.rv@gmail.com for any bugs / suggestions / copyright related queries   
+
+
+# Copyright
 The original license is "carried-forward" and please contact original community for any usage related queries.
 Please contact me for any changes to be done in this aspect and i would be glad to do it.
 Below is original copyright notice without any modifications -
